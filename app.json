@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Jiya v2.0",
+    "slug": "jiya-v2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "jiyav2",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "android": {
+      "package": "com.jashbeer.jiya",
+      "permissions": [
+        "RECORD_AUDIO",
+        "READ_CONTACTS",
+        "CALL_PHONE",
+        "SEND_SMS",
+        "SYSTEM_ALERT_WINDOW",
+        "WRITE_SETTINGS",
+        "CAMERA"
+      ]
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
